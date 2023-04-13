@@ -7,8 +7,24 @@ In this study we are aiming to analyze the  Credit risk is an inherently unbalan
 
 ## Results:
 
-There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models (15 pt)
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
+- RandomOverSampler
+![RandomOverSampler](Images/random.PNG)
+
+- SMOTE
+![SMOTE](Images/SMOTE.PNG)
+
+- ClusterCentroids
+![ClusterCentroids](Images/ClusterCentroids.PNG)
+
+- SMOTEEN
+![SMOTEEN](Images/SMOTEEN.PNG)
+
+-BalancedRandomForestClassifier
+![BalancedRandomForestClassifier](Images/BRF.PNG)
+
+-EasyEnsembleClassifier
+![EasyEnsembleClassifier](Images/EEC.PNG)
+
 
 ## Summary:
 
