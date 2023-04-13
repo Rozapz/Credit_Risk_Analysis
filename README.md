@@ -7,17 +7,25 @@ In this study we are aiming to analyze the  Credit risk is an inherently unbalan
 
 ## Results:
 
+### Over Sampling
+
 - Random Over Sampler
 ![RandomOverSampler](Images/random.PNG)
 
 - SMOTE
 ![SMOTE](Images/SMOTE.PNG)
 
+### Under Samplping
+
 - Cluster Centroids
 ![ClusterCentroids](Images/ClusterCentroids.PNG)
 
+### Under and Over Sampling
+
 - SMOTEEN
 ![SMOTEEN](Images/SMOTEEN.PNG)
+
+### Classifiers method
 
 - Balanced Random Forest Classifier
 ![BalancedRandomForestClassifier](Images/BRF.PNG)
