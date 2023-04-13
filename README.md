@@ -13,12 +13,13 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 ## Summary:
 
-The Summary of the accuracy of different machine learning algorithems that are used in this study is shown in the following tabel.
+The Summary of the accuracy of different machine learning algorithems for predicting high risk loans are shown in the following tabel.
 
 | Column 1 | RandomOverSampler | SMOTE | ClusterCentroids | SMOTEENN | BalancedRandomForest | EasyEnsemble |
 |:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
-|   accuracy_score  |    0.615     |    0.621     |    0.510     |    0.637     |    0.788     |    0.931     |
-|   f1  |    0.77     |    0.78     |    0.6     |    0.72     |    0.93     |    0.97     |
+|   accuracy_score  |    0.62     |    0.62     |    0.50     |    0.64     |    0.79     |    0.93     |
+|   f1  |    0.02     |    0.02     |    0.01     |    0.02     |    0.06     |    0.16     |
+|   precision  |    0.01    |    0.01     |    0.01     |    0.01     |    0.03     |    0.09     |
 
 As it can be seen, the classifyer method are berforming better than linear regression methods in this study. We can recommend using Easy Ensemble classifyer method as it has a very good f1 and accuracy score.
 
