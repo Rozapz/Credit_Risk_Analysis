@@ -3,8 +3,7 @@ Credit Risk Analysis using machin learning
 
 ## Overview:
 
-Overview of the loan prediction risk analysis: Explain the purpose of this analysis.
-The purpose of this analysis is well defined (4 pt)
+In this study we are aiming to analyze the  Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. Therefore, we will need to employ different techniques to train and evaluate models with unbalanced classes. Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, we oversampled the data using the RandomOverSampler and SMOTE algorithms, and undersampled the data using the ClusterCentroids algorithm. Then, we used a combinatorial approach of over- and undersampling using the SMOTEENN algorithm. Next, we compared two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk. lastly we evaluated the performance of these models to predict credit risk.
 
 ## Results:
 
@@ -21,7 +20,7 @@ The Summary of the accuracy of different machine learning algorithems for predic
 |   f1  |    0.02     |    0.02     |    0.01     |    0.02     |    0.06     |    0.16     |
 |   precision  |    0.01    |    0.01     |    0.01     |    0.01     |    0.03     |    0.09     |
 
-As it can be seen, the classifyer method are berforming better than linear regression methods in this study. We can recommend using Easy Ensemble classifyer method as it has a very good f1 and accuracy score.
+As it can be seen, the classifyer method are berforming better than linear regression methods in this study. But still when we look at the hig risk prediction we can see that the models are not performing very well. These model can not predecict the high risk cases very well and they will have false postive cases for high risk cases in these models. 
 
 
 
