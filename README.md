@@ -44,7 +44,7 @@ The Summary of the accuracy of different machine learning algorithms for predict
 |   f1  |    0.02     |    0.02     |    0.01     |    0.02     |    0.06     |    0.16     |
 |   precision  |    0.01    |    0.01     |    0.01     |    0.01     |    0.03     |    0.09     |
 
-The classifier method is performing better than the linear regression methods in this study. But still when we look at the high-risk prediction we can see that the models are not performing very well. These models can not predict the high-risk cases very well and they will have false positive cases for high-risk cases in these models. 
+The classifier method is performing better than the linear regression methods in this study. But still when we look at the high-risk prediction, we can see that the models are not performing very well. These models can not predict the high-risk cases very well and they will have false positive cases for high-risk cases in these models. 
 
 
 
